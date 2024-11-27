@@ -3,10 +3,15 @@
 This repository contains the Python scripts used to create a custom, tiny Hinglish-speaking model based on the GPT-2 architecture. The model consists of 21 million parameters and is trained to generate responses in Hinglish for general everyday conversations. Below is the step-by-step process of how the model was developed.
 
 ---
+**[Try it out now!](https://huggingface.co/spaces/Abhishekcr448/Hinglish-Chat-Prediction)**
+
+**Access Model:** [Abhishekcr448/Tiny-Hinglish-Chat-21M](https://huggingface.co/Abhishekcr448/Tiny-Hinglish-Chat-21M)
+
+---
 
 ### Project Overview
 
-The objective of this project was to create a small text-generative model in Hinglish using the GPT-2 architecture. The model is trained to predict replies and responses in Hinglish on general everyday conversational topics. The project includes the creation of a custom tokenizer, training the model from scratch, and fine-tuning it using a relevant conversational dataset.
+This project aimed to create a small text-generative model in Hinglish using the GPT-2 architecture. The model is trained to predict replies and responses in Hinglish on general everyday conversational topics. The project included creating a custom tokenizer, training the model from scratch, and fine-tuning it using a relevant conversational dataset.
 
 ---
 
@@ -28,7 +33,7 @@ The objective of this project was to create a small text-generative model in Hin
 1. **Datasets Used**:
    - A combined dataset of 1.7 million records:
      - 700k records from various Hinglish datasets extracted from HuggingFace.
-     - 1 million records generated using GPT-4 API (batch processing method for everyday conversations).
+     - 1 million records generated using GPT-4 API (batch processing method for everyday conversations). [Access the dataset](https://huggingface.co/spaces/Abhishekcr448/Hinglish-Chat-Prediction)
    
 2. **Cleaning the Data**:
    - The datasets were cleaned by removing unnecessary characters and converting everything to lowercase using the cleaning script (`clean_data.py`).
@@ -105,7 +110,7 @@ The objective of this project was to create a small text-generative model in Hin
 - **GPU Usage**: $10 (for 4 hours of training on Vast.ai).
 - **Total Estimated Cost**: $25.
 
-   If I had avoided mistakes and unnecessary other models creation, the project could have been completed for $15–$20.
+   If I had avoided mistakes and unnecessary other model creation, the project could have been completed for $15–$20.
 
 ---
 
@@ -121,8 +126,8 @@ The objective of this project was to create a small text-generative model in Hin
 
 ### Acknowledgements
 
-- The inspiration for this project came from the [Tiny Stories](https://huggingface.co/tiny-stories) model on HuggingFace.
-- I used HuggingFace datasets and GPT-4 API for generating the everyday conversational dataset.
+- The inspiration for this project came from the [Tiny Stories](https://huggingface.co/roneneldan/TinyStories-33M) model on HuggingFace.
+- I used HuggingFace datasets and GPT-4 API to generate the everyday conversational dataset.
 
 ---
 
