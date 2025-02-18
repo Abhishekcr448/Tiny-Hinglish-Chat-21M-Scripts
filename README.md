@@ -33,7 +33,7 @@ This project aimed to create a small text-generative model in Hinglish using the
 1. **Datasets Used**:
    - A combined dataset of 1.7 million records:
      - 700k records from various Hinglish datasets extracted from HuggingFace.
-     - 1 million records generated using GPT-4 API (batch processing method for everyday conversations). [Access the dataset](https://huggingface.co/spaces/Abhishekcr448/Hinglish-Chat-Prediction)
+     - 1 million records generated using GPT-4 API (batch processing method for everyday conversations). [Access the dataset](https://huggingface.co/datasets/Abhishekcr448/Hinglish-Everyday-Conversations-1M)
    
 2. **Cleaning the Data**:
    - The datasets were cleaned by removing unnecessary characters and converting everything to lowercase using the cleaning script (`clean_data.py`).
